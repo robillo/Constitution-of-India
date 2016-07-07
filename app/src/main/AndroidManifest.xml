@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appbusters.robinpc.constitutionofindia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".parts"
+            android:label="@string/title_activity_parts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".preamble"
+            android:label="@string/title_activity_preamble"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".schedules"
+            android:label="@string/title_activity_schedules"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".amendments"
+            android:label="@string/title_activity_amendments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Part1"
+            android:label="@string/title_activity_part1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

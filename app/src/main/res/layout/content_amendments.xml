@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.appbusters.robinpc.constitutionofindia.amendments"
+    tools:showIn="@layout/activity_amendments">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 1"
+                android:onClick="Amendment1"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 2"
+                android:onClick="Amendment2"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 3"
+                android:onClick="Amendment3"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 4"
+                android:onClick="Amendment4"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 5"
+                android:onClick="Amendment5"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 6"
+                android:onClick="Amendment6"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 7"
+                android:onClick="Amendment7"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 8"
+                android:onClick="Amendment8"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 9"
+                android:onClick="Amendment9"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 10"
+                android:onClick="Amendment10"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 11"
+                android:onClick="Amendment11"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 12"
+                android:onClick="Amendment12"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 13"
+                android:onClick="Amendment13"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 14"
+                android:onClick="Amendment14"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 15"
+                android:onClick="Amendment15"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 16"
+                android:onClick="Amendment16"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 17"
+                android:onClick="Amendment17"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 18"
+                android:onClick="Amendment18"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 19"
+                android:onClick="Amendment19"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 20"
+                android:onClick="Amendment20"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 21"
+                android:onClick="Amendment21"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 22"
+                android:onClick="Amendment22"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 23"
+                android:onClick="Amendment23"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 24"
+                android:onClick="Amendment24"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 25"
+                android:onClick="Amendment25"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 26"
+                android:onClick="Amendment26"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 27"
+                android:onClick="Amendment27"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 28"
+                android:onClick="Amendment28"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 29"
+                android:onClick="Amendment29"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 30"
+                android:onClick="Amendment30"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 31"
+                android:onClick="Amendment31"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 32"
+                android:onClick="Amendment32"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 33"
+                android:onClick="Amendment33"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 34"
+                android:onClick="Amendment34"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 35"
+                android:onClick="Amendment35"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 36"
+                android:onClick="Amendment36"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 37"
+                android:onClick="Amendment37"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 38"
+                android:onClick="Amendment38"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 39"
+                android:onClick="Amendment39"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 40"
+                android:onClick="Amendment40"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 41"
+                android:onClick="Amendment41"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 42"
+                android:onClick="Amendment42"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 43"
+                android:onClick="Amendment43"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 44"
+                android:onClick="Amendment44"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 45"
+                android:onClick="Amendment45"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 46"
+                android:onClick="Amendment46"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 47"
+                android:onClick="Amendment47"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 48"
+                android:onClick="Amendment48"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 49"
+                android:onClick="Amendment49"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 50"
+                android:onClick="Amendment50"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 51"
+                android:onClick="Amendment51"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 52"
+                android:onClick="Amendment52"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 53"
+                android:onClick="Amendment53"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 54"
+                android:onClick="Amendment54"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 55"
+                android:onClick="Amendment55"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 56"
+                android:onClick="Amendment56"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 57"
+                android:onClick="Amendment57"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 58"
+                android:onClick="Amendment58"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 59"
+                android:onClick="Amendment59"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 60"
+                android:onClick="Amendment60"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 61"
+                android:onClick="Amendment61"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 62"
+                android:onClick="Amendment62"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 63"
+                android:onClick="Amendment63"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 64"
+                android:onClick="Amendment64"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 65"
+                android:onClick="Amendment65"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 66"
+                android:onClick="Amendment66"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 67"
+                android:onClick="Amendment67"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 68"
+                android:onClick="Amendment68"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 69"
+                android:onClick="Amendment69"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 70"
+                android:onClick="Amendment70"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 71"
+                android:onClick="Amendment71"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 72"
+                android:onClick="Amendment72"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 73"
+                android:onClick="Amendment73"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 74"
+                android:onClick="Amendment74"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 75"
+                android:onClick="Amendment75"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 76"
+                android:onClick="Amendment76"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 77"
+                android:onClick="Amendment77"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 78"
+                android:onClick="Amendment78"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 79"
+                android:onClick="Amendment79"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 80"
+                android:onClick="Amendment80"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 81"
+                android:onClick="Amendment81"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 82"
+                android:onClick="Amendment82"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 83"
+                android:onClick="Amendment83"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 84"
+                android:onClick="Amendment84"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 85"
+                android:onClick="Amendment85"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 86"
+                android:onClick="Amendment86"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 87"
+                android:onClick="Amendment87"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 88"
+                android:onClick="Amendment88"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 89"
+                android:onClick="Amendment89"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 90"
+                android:onClick="Amendment90"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 91"
+                android:onClick="Amendment91"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 92"
+                android:onClick="Amendment92"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 93"
+                android:onClick="Amendment93"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 94"
+                android:onClick="Amendment94"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 95"
+                android:onClick="Amendment95"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 96"
+                android:onClick="Amendment96"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 97"
+                android:onClick="Amendment97"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 98"
+                android:onClick="Amendment98"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 99"
+                android:onClick="Amendment99"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Amendment 100"
+                android:onClick="Amendment100"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="7dp" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
