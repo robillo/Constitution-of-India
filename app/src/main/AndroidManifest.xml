@@ -37,6 +37,106 @@
         <activity
             android:name=".Part1"
             android:label="@string/title_activity_part1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part2"
+            android:label="@string/title_activity_part2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part3"
+            android:label="@string/title_activity_part3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part4"
+            android:label="@string/title_activity_part4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part5"
+            android:label="@string/title_activity_part5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part6"
+            android:label="@string/title_activity_part6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part7"
+            android:label="@string/title_activity_part7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part8"
+            android:label="@string/title_activity_part8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part9"
+            android:label="@string/title_activity_part9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part10"
+            android:label="@string/title_activity_part10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part11"
+            android:label="@string/title_activity_part11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part12"
+            android:label="@string/title_activity_part12"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part13"
+            android:label="@string/title_activity_part13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part14"
+            android:label="@string/title_activity_part14"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part15"
+            android:label="@string/title_activity_part15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part16"
+            android:label="@string/title_activity_part16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part17"
+            android:label="@string/title_activity_part17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part18"
+            android:label="@string/title_activity_part18"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part19"
+            android:label="@string/title_activity_part19"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part20"
+            android:label="@string/title_activity_part20"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part21"
+            android:label="@string/title_activity_part21"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part22"
+            android:label="@string/title_activity_part22"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part23"
+            android:label="@string/title_activity_part23"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part24"
+            android:label="@string/title_activity_part24"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part25"
+            android:label="@string/title_activity_part25"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Part26"
+            android:label="@string/title_activity_part26"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
